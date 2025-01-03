@@ -17,6 +17,8 @@ public class SpringConfig {
 
     DataSource dataSource;
     EntityManager em;
+    MemberRepository memberRepository;
+
 
     @Autowired
     public SpringConfig(DataSource dataSource) {
@@ -28,18 +30,23 @@ public class SpringConfig {
         this.em = em;
     }
 
-    @Bean
-    public MemberService memberService() {
-        return new MemberService(memberRepository());
+    @Autowired
+    public void setMemberRepository(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
     }
 
     @Bean
-    public MemberRepository memberRepository() {
+    public MemberService memberService() {
+        return new MemberService(memberRepository);
+    }
+
+//    @Bean
+//    public MemberRepository memberRepository() {
 //        return new MemoryMemberRepository();
 //        return new JdbcMemberRepository(dataSource);    // 다른 코드 변경 없이 갈아끼우기 가능
 //        return new JdbcMemberRepository(dataSource);
-        return new JpaMemberRepository(em);
-    }
+//        return new JpaMemberRepository(em);
 
 
+//    }
 }
