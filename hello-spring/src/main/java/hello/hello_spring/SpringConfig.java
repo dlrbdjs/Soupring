@@ -28,7 +28,8 @@ public class SpringConfig {
     @Bean
     public MemberRepository memberRepository() {
 //        return new MemoryMemberRepository();
-        return new JdbcMemberRepository(dataSource);    // 다른 코드 변경 없이 갈아끼우기 가능
+//        return new JdbcMemberRepository(dataSource);    // 다른 코드 변경 없이 갈아끼우기 가능
+        return new JdbcMemberRepository(dataSource);
     }
 
 }
