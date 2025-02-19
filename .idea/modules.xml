@@ -3,15 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Soupring.iml" filepath="$PROJECT_DIR$/.idea/Soupring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-spring.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-spring.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-spring.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello.core.iml" filepath="$PROJECT_DIR$/.idea/modules/hello.core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hello.core.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hello.core.test.iml" />
     </modules>
   </component>
 </project>
