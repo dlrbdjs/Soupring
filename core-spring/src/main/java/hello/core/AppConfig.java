@@ -11,7 +11,7 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration // 이걸 안해주면 싹다 호출해버림 CGLIB를 안씀 싱글톤 보장 x
 public class AppConfig {
 
     @Bean
