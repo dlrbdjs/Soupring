@@ -5,6 +5,19 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
+# Gradle 빌드 캐시/임시 파일 무시
+.gradle/
+**/.gradle/
+*.lock
+*.bin
+*.properties
+
+# (추가적으로 IntelliJ를 더 깔끔하게 관리하고 싶다면)
+.idea/
+*.iml
+out/
+
+
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
