@@ -36,3 +36,5 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+buildDir = 'C:/intelliJ_builds/Soupring/thymeleafbasic/build'
