@@ -8,3 +8,5 @@
   - [상품 관리 웹 페이지 만들기](https://github.com/dlrbdjs/Soupring/tree/main/item-service)
 - 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술 (굳이 안들어도 될 듯__ 중지)
   - [타임리프 - 기본 기능](https://github.com/dlrbdjs/Soupring/tree/main/thymeleaf-basic)
+- 스프링 DB 1편 - 데이터 접근 핵심 원리
+  - [JDBC 이해](https://github.com/dlrbdjs/Soupring/tree/main/jdbc)
