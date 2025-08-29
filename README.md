@@ -6,5 +6,5 @@
   - [서블릿, JSP, MVC 패턴](https://github.com/dlrbdjs/Soupring/tree/main/servlet)
   - [스프링 MVC - 구조 이해, 기본 기능](https://github.com/dlrbdjs/Soupring/tree/main/springmvc)
   - [상품 관리 웹 페이지 만들기](https://github.com/dlrbdjs/Soupring/tree/main/item-service)
-- 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술
+- 스프링 MVC 2편 - 백엔드 웹 개발 활용 기술 (굳이 안들어도 될 듯__ 중지)
   - [타임리프 - 기본 기능](https://github.com/dlrbdjs/Soupring/tree/main/thymeleaf-basic)
