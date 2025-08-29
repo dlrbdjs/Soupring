@@ -99,6 +99,13 @@ public class BasicController {
         addUsers(model);
         return "basic/each";
     }
+
+    @GetMapping("/condition")
+    public String condition(Model model) {
+        addUsers(model);
+        return "basic/condition";
+    }
+
     @Component("helloBean")
     static class HelloBean {
         public String hello(String data) {
