@@ -28,7 +28,7 @@ public class JdbcTemplateItemRepositoryV1 implements ItemRepository {
 
     private final JdbcTemplate template;
 
-    JdbcTemplateItemRepositoryV1(DataSource dataSource) {
+    public JdbcTemplateItemRepositoryV1(DataSource dataSource) {
         this.template = new JdbcTemplate(dataSource);
     }
 
