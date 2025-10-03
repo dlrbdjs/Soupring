@@ -34,9 +34,11 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok'
 
     // MyBatis
-    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+buildDir = "C://intelliJ_builds//Soupring//itemservice-db-start"
